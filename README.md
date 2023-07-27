@@ -42,7 +42,7 @@ source env/bin/activate
 
 7. Install python requirements (install only once):
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 8. Run the script to deploy contracts:

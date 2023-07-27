@@ -4,6 +4,7 @@ sudo apt install curl -y
 curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
 sudo bash /tmp/nodesource_setup.sh
 sudo apt-get install -y nodejs
+sudo apt install python3-venv
 
 # Preparing for Deploy
 npm init -y

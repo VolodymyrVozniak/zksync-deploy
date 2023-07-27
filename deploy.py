@@ -25,7 +25,7 @@ if __name__ == "__main__":
         with open(TEMPLATE_PATH, "r") as f:
             deploy = f.read()
 
-        deploy = deploy.replace("PRIVATE_KEY", private_key)
+        deploy = deploy.replace("<WALLET-PRIVATE-KEY>", private_key)
 
         with open(DEPLOY_PATH, "w") as f:
             f.write(deploy)
